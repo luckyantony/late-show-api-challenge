@@ -11,7 +11,9 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    
+    app.register_blueprint(guest_bp)
+    app.register_blueprint(episode_bp)
+    app.register_blueprint(appearance_bp)
 
     return app
 
