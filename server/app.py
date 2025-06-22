@@ -16,6 +16,7 @@ def create_app():
     app.register_blueprint(appearance_bp)
 
     return app
+    
 
 app = create_app()
 
