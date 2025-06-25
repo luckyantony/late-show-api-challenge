@@ -1,10 +1,10 @@
-# 🌙 Late Show API
+# Late Show API
 
 A Flask REST API for managing a Late Night Show system.
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ### 1. Install Dependencies
 
@@ -52,7 +52,7 @@ python server/seed.py
 
 ---
 
-## 🔐 Auth Flow
+##  Auth Flow
 
 ### 1. Register
 
@@ -104,17 +104,17 @@ Authorization: Bearer <your_token_here>
 
 | Endpoint               | Method | Auth Required | Description                 |
 |------------------------|--------|----------------|-----------------------------|
-| `/register`            | POST   | ❌             | Register new user           |
-| `/login`               | POST   | ❌             | Login + get token           |
-| `/episodes`            | GET    | ❌             | List all episodes           |
-| `/episodes/<id>`       | GET    | ❌             | Get one episode with guests |
-| `/episodes/<id>`       | DELETE | ✅             | Delete episode              |
-| `/guests`              | GET    | ❌             | List all guests             |
-| `/appearances`         | POST   | ✅             | Add new appearance          |
+| `/register`            | POST   |     No        | Register new user           |
+| `/login`               | POST   |     No          | Login + get token           |
+| `/episodes`            | GET    |     No         | List all episodes           |
+| `/episodes/<id>`       | GET    |     No         | Get one episode with guests |
+| `/episodes/<id>`       | DELETE |     Yes         | Delete episode              |
+| `/guests`              | GET    |     No         | List all guests             |
+| `/appearances`         | POST   |     Yes         | Add new appearance          |
 
 ---
 
-## 🧪 Postman Testing
+##  Postman Testing
 
 1. Open Postman.
 2. Import the `challenge-4-lateshow.postman_collection.json` file.
@@ -127,7 +127,7 @@ Authorization: Bearer <your_token_here>
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - Python
 - Flask
