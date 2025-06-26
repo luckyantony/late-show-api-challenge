@@ -4,7 +4,7 @@ A Flask RESTful API for managing a Late Night Show system with PostgreSQL and JW
 
 ---
 
-## 🚀 Learning Goals
+##  Learning Goals
 
 * Build a Flask API backend
 * Use PostgreSQL as the database
@@ -14,7 +14,7 @@ A Flask RESTful API for managing a Late Night Show system with PostgreSQL and JW
 
 ---
 
-## 🫠 Requirements
+##  Requirements
 
 * Python 3.8+
 * PostgreSQL (installed and running)
@@ -23,7 +23,7 @@ A Flask RESTful API for managing a Late Night Show system with PostgreSQL and JW
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone Repository
 
@@ -74,7 +74,7 @@ Visit: `http://127.0.0.1:5000/`
 
 ---
 
-## 👩‍🔧 Auth Flow
+##  Auth Flow
 
 ### Register
 
@@ -118,7 +118,7 @@ Authorization: Bearer your.jwt.token
 
 ---
 
-## 📊 API Endpoints
+## API Endpoints
 
 | Endpoint         | Method | Auth Required | Description              |
 | ---------------- | ------ | ------------- | ------------------------ |
@@ -132,7 +132,7 @@ Authorization: Bearer your.jwt.token
 
 ---
 
-## 📊 Data Models
+## Data Models
 
 * A `User` can register and log in.
 * An `Episode` can have many `Guests` via `Appearances`.
@@ -146,7 +146,7 @@ Authorization: Bearer your.jwt.token
 
 ---
 
-## 📂 Postman Testing
+##  Postman Testing
 
 1. Open Postman.
 2. Import the collection file `challenge-4-lateshow.postman_collection.json`.
@@ -161,7 +161,7 @@ Authorization: Bearer your.jwt.token
 
 ---
 
-## 📈 Tech Stack
+##  Tech Stack
 
 * Python
 * Flask
@@ -172,12 +172,12 @@ Authorization: Bearer your.jwt.token
 
 ---
 
-## 👨‍💼 Author
+##  Author
 
 Built with 💻, ❤️ and ☕ by Luckyantony Leshan
 
 ---
 
-## 📄 License
+##  License
 
 ISC License
